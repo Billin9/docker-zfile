@@ -1,0 +1,14 @@
+version: '2.2'
+
+services:
+  zfile:
+    container_name: zfile
+    image: hub.dosec.cn/private/zfile:2020-03-19T23.48.18
+    # cpus: '0.5'
+    # mem_limit: 100m
+    ports:
+      - "8080:8080"
+    restart: always
+    volumes:
+      - /root/webdav/data:/data
+      - ./db:/db
