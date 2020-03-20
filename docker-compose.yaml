@@ -3,12 +3,13 @@ version: '2.2'
 services:
   zfile:
     container_name: zfile
-    image: hub.dosec.cn/private/zfile:2020-03-19T23.48.18
+    image: hub.dosec.cn/private/zfile:2020-03-20T16.32.08
     # cpus: '0.5'
     # mem_limit: 100m
     ports:
-      - "8080:8080"
+      - "80:8080"
     restart: always
     volumes:
       - /root/webdav/data:/data
       - ./db:/db
+      - ./config/application.yml:/zfile/WEB-INF/classes/application.yml
