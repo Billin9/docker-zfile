@@ -53,9 +53,9 @@ zfile:
   cache:
     auto-refresh:
       enable: true   # 是否开启自动刷新缓存.
-      delay: 20    # 启动项目后多久开始自动刷新缓存, 推荐与 interval 一致, 因为项目启动时会缓存所有文件.
-      interval: 20 # 任务间隔时间, 也就是每多长时间会自动刷新缓存一次.
-    timeout: 20
+      delay: 10    # 启动项目后多久开始自动刷新缓存, 推荐与 interval 一致, 因为项目启动时会缓存所有文件.
+      interval: 10 # 任务间隔时间, 也就是每多长时间会自动刷新缓存一次.
+    timeout: 10
   constant:
     readme: rd.md
     password: pppwd
