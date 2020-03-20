@@ -57,8 +57,8 @@ zfile:
       interval: 10 # 任务间隔时间, 也就是每多长时间会自动刷新缓存一次.
     timeout: 10
   constant:
-    readme: rd.md
-    password: pppwd
+    readme: md
+    password: pwd
   onedrive:
     clientId: 09939809-c617-43c8-a220-a93c1513c5d4
     clientSecret: _l:zI-_yrW75lV8M61K@z.I2K@B/On6Q
